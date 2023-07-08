@@ -57,6 +57,10 @@ On phone:
 
 <img src="/img/petal_20230707_233235.gif" width='450' />
 
+## Why does this work? 
+
+I guess the default Noto Color Emoji font comes with its own numerals and "space" characters. By deleting them we force the system to use fallback glyphs from the default system font for those characters. So all the new glyphs (aka emojis!!!) are usable, without any weird spacing or number glitches. Hooray!
+
 
 
 tags: Unicode Unicode 15.0 Huawei EMUI 10 11 HarmonyOS Emoji 14.0 Emoji 15.0 huawei install new emojis huawei emui install new font merge emoji font get new emoji emojis
