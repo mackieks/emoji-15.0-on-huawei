@@ -1,5 +1,7 @@
 # Installing Emoji 15.0 on Huawei EMUI 11 <img src="https://em-content.zobj.net/thumbs/120/google/350/shaking-face_1fae8.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/60/google/350/folding-hand-fan_1faad.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/60/google/350/light-blue-heart_1fa75.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/120/google/350/pink-heart_1fa77.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/120/google/350/moose_1face.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/120/google/350/jellyfish_1fabc.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/120/google/350/pea-pod_1fadb.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/120/google/350/ginger_1fada.png" height='40' /> <img src="https://em-content.zobj.net/thumbs/120/google/350/hair-pick_1faae.png" height='40' /> 
-How to install the latest and greatest emojis (Emoji 15.0) on post-ban Huawei devices (tested on EMUI 11). click here to jump to the install guide
+How to install the latest and greatest emojis (Emoji 15.0) on post-ban Huawei devices (tested on EMUI 11). 
+
+[click here to jump to the install guide](https://github.com/mackieks/emoji-15.0-on-huawei/blob/main/README.md#-the-true-solution-)
 
 ## The state of emoji on Huawei devices in 2023 <img src="https://em-content.zobj.net/thumbs/120/google/350/melting-face_1fae0.png" height='30' />
 
