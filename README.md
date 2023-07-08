@@ -25,7 +25,7 @@ Using [Font Manager for Huawei/Honor](https://play.google.com/store/apps/details
 # ✨ The True Solution ✨
 #### (I've uploaded a pre-edited `.ttf` to this repo, so you can skip the entire PC section if you want. 🙂)
 
-On PC:
+**On PC:**
 1. Purchase and install [Dutch Type Library OTMaster 8.9](https://www.fontmaster.nl/otmaster.html) (font/glyph editor with FULL NATIVE CBDT/CBLC support, unlike FontLab!)
 2. Download the latest [NotoColorEmoji.ttf](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
 3. Open NotoColorEmoji.ttf in OTMaster 8.9
@@ -43,7 +43,7 @@ On PC:
 9. Repeat this process for glyphs `0x00000030` through `0x00000039` to delete all 10 numerals.
 10. Press File > Save As and save the edited `.ttf` somewhere. Copy the `.ttf` to your phone.
  
-On phone:
+**On phone:**
 1. Install [Font Manager for Huawei/Honor](https://play.google.com/store/apps/details?id=com.deishelon.emuifontmanager) from Aurora Store or wherever.
 2. Navigate to Tools > Create font (.ttf) and select the edited font from earlier
 
