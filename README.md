@@ -1,15 +1,15 @@
-## emoji-15.0-on-huawei
+# Installing Emoji 15.0 on Huawei EMUI 11
 How to install the latest and greatest emojis (Emoji 15.0) on older Huawei devices (EMUI 11-ish)
 
-# The state of emoji on Huawei devices in 2023
+## The state of emoji on Huawei devices in 2023
 Pre-ban devices (Mate 20 Pro, P30 Pro) have the latest emoji even if they're running EMUI 11! How? Google serves new emoji to Gboard through the [EmojiCompat library](https://developer.android.com/develop/ui/views/text-and-emoji/emoji-compat) **via Google Mobile Services.** Yes, Google now gates access to the latest Unicode standard via their monopolistic mobile services platform.
 
 Post-ban devices (P40+, Mate 30+) lack GMS. That means no EmojiCompat and no OTA emoji from Google. HarmonyOS 3.0 and EMUI 13.0 devices may be in a better state, but my Mate 40 Pro running EMUI 11 has been stuck with [Android 10 emoji](https://emojipedia.org/google/android-10.0/) since release. Exchanging messages with friends and family (most of whom have iPhones) gets annoying when all you can see is inscrutable tofus instead of ["Smiling Face with Tear"](https://emojipedia.org/smiling-face-with-tear/), ["Pink Heart"](https://emojipedia.org/pink-heart/), or ["Melting Face"](https://emojipedia.org/melting-face/).
 
-# Existing workarounds
+## Existing workarounds
 The usual workarounds for getting new emoji all suck. I don't want to install an "iOS 16.4 emoji pack" with ZFont3; I want [Noto Color emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji) like every other decent Android device. Half the time with these glitchy packs the tofus in *received* messages will be fixed, but Gboard doesn't pick up the new emoji, so you can't *send* them. And for some reason no premade Unicode 14.0 or 15.0 Noto Color emoji packs are listed! 
 
-# Trying to install NotoColorEmoji.ttf directly
+## Trying to install NotoColorEmoji.ttf directly
 Using [Font Manager for Huawei/Honor](https://play.google.com/store/apps/details?id=com.deishelon.emuifontmanager) to install [NotoColorEmoji.ttf](https://github.com/googlefonts/noto-emoji/tree/main/fonts) as a "Text Style" in the Themes app works... *sort of*. It seems the Font Manager app just copies the .ttf into /Huawei/Themes/ (and maybe does something else to tell the system it's a usable "Text Style"?) After applying it, all Unicode 15.0 emoji are visible and usable in Gboard! But there are some weird side effects— numerals 0 through 9 are replaced with emoji, and spaces (U+0020) are super wide. Basically unusable.
 
 
